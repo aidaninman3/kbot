@@ -16,7 +16,7 @@ if __name__ == "__main__":
         elif not password:
             password = getpass.getpass('password > ')
             
-        password = input('email > ')   
+        password = input('password > ')   
         pin = input("pin > ")
         name = input('name > ')
         user = klib.Kahoot(pin, name)
